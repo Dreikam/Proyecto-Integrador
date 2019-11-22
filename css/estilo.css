@@ -1,0 +1,496 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 auto;
+  font-family: 'Roboto Slab', serif;
+}
+body{
+  background: url("../img/bg-default.jpg");
+  background-size: cover;
+}
+
+.login-box{
+  width: 20%;
+  height: 55.25%;
+  background: white;
+  position: relative;
+  color: black;
+  padding: 3%;
+  margin: 10% auto;
+  border-radius: 25px;
+}
+
+.pushbar .menu img {
+  width: 162px;
+  margin-bottom: 2%;
+  border-radius: 70px;
+}
+
+.login-box .logooo{
+  width: 40px;
+  height: 50px;
+  position: absolute;
+  top: 4px;
+  left: 83%;
+  border-radius: 8px;
+}
+
+
+.login-box h1{
+  margin: 0;
+  padding: 0 0 20px;
+  font-size: 22px;
+  color: #976E59;
+  text-align: center;
+}
+
+.login-box label{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+  color: #976E59
+}
+.login-box input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login-box input[type="email"], .login-box input[type="password"], .login-box input[type="text"], .login-box input[type="number"] {
+  border: none;
+  border-bottom: 1px solid black;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  font-size: 16px;
+  color: black;
+}
+.login-box button[type="submit"]{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #976E59;
+  border-radius: 20px;
+  color:  white;
+  font-size: 18px;
+  width: 100%;
+  display: block;
+  margin-bottom: 1rem;
+}
+.login-box button[type="submit"]:hover{
+  background: red;
+}
+.login-box a{
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: black;
+  display: block;
+}
+.login-box a:hover{
+  color: #92908F
+}
+
+.register{
+  max-width: 1200px;
+    width: 26.66%;
+    background-color: white;
+    color: black;
+    padding: 13px 30px;
+    border-radius: 25px;
+    margin: 1% auto;
+    height: 90%;
+}
+.login-box .regis{
+  margin: 0;
+  padding: 0 0 20px;
+  font-size: 22px;
+  text-align: center;
+  position: static;
+  color: #976E59;
+}
+.formBox{
+  background-color: white;
+  padding: 5%;
+}
+.register .pasin{
+  margin-bottom: 0px;
+}
+small{
+  color: darkgrey;
+}
+.login-box .chiquito{
+  margin-top: 20px;
+}
+.register .ts{
+    width: 5%;
+}
+.login-box .ts{
+  width: 5%;
+}
+
+#file-preview-zone img{
+  width: 86px;
+  margin-bottom: 2%;
+}
+
+
+.logo{
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+  margin-left: 45%;
+}
+.cajaa{
+  border-radius: 30px;
+  padding: 30px;
+  border: 5px ;
+  margin-top: 10px;
+  margin-botton: 10px;
+  width: 40%;
+  background-color: #976e59de;
+}
+.cajab{
+  border-radius: 30px;
+  padding: 30px;
+  border: 5px ;
+  margin-top: 10px;
+  margin-botton: 10px;
+  background-color: #ffffffde;
+}
+.cajac{
+  text-decoration-color: white;
+  padding: 30px;
+  border: 5px ;
+  width: 100%;
+  margin-top: 100px;
+  background-color: #2d2d2c;
+}
+.cajaF {
+  width: 50%;
+  border-radius: 30px;
+  padding: 30px;
+  border: 5px ;
+  margin-top: 20px;
+  background-color: #ffffffde;
+}
+
+.nuevopass{
+  width: 34%;
+  background: white;
+  position: relative;
+  color: black;
+  padding: 1%;
+  margin: 20% auto;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.nuevopass input[type="email"] {
+  border: none;
+  border-bottom: 1px solid black;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  font-size: 16px;
+  color: black;
+  width: 77%;
+  margin-bottom: 4%;
+}
+.nuevopass button[type="submit"]{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #976E59;
+  border-radius: 20px;
+  color:  white;
+  font-size: 18px;
+  width: 30%;
+  display: block;
+  margin-bottom: 1rem;
+  margin: 0 auto;
+}
+
+.nuevopass label{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+  color: #976E59
+}
+
+@media (max-width: 1024px) {
+body {
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+}
+.cajaa {
+    width: 100%;
+    margin-bottom: none;
+}
+.cajaF {
+    margin-top: 45px;
+    float: none;
+}
+.forma{
+    text: 20px;
+}
+.h3 {
+    margin: 90 0 20 200px;
+}
+}
+
+@media (max-width: 768px){
+
+.cajaF input[type="radio"]{
+  font-size: x-large;
+}
+.cajac{
+  margin-top: 58px;
+}
+}
+
+@media (max-width: 528px){
+.cajaF {
+width: 80%;
+}
+.cajaF input[type="submit"]{
+  font-size: larger;
+  width: -webkit-fill-available;
+}
+}
+@media (max-width: 425px){
+.cajaF{
+  width: inherit;
+  }
+.cajaF input[type="submit"]{
+  width: 100%;
+  font-size: medium;
+}
+.cajaF input[type="radio"]{
+font-size: 5px;
+width:
+}
+}
+
+.contenedor {
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	padding-bottom: 120px;
+}
+.contenedor a{
+  text-decoration: none;
+}
+
+/* ----- ----- HEADER ----- ----- */
+.headerI {
+	width: 75%;
+	text-align: center;
+	padding: 29px 0;
+  background: white;
+  margin-top: 6%;
+  border-radius: 70px;
+  margin-bottom: 2%;
+}
+
+.headerI img {
+  width: 44%;
+}
+
+.headerI h2 {
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 24px;
+	color: #919191;
+}
+
+/* ----- ----- MAIN ----- ----- */
+.mainI {
+	width: 100%;
+}
+
+.mainI .navI {
+	width: 100%;
+	display: flex;
+	margin-bottom: 60px;
+}
+
+.mainI .navI .btn-menu {
+	display: inline-block;
+	width: 65px;
+	height: 65px;
+	border: 1px solid #000;
+	background: transparent;
+	cursor: pointer;
+	font-size: 28px;
+	margin-right: 20px;
+	transition: .3s ease all;
+  color: white;
+  background: #976E59;
+}
+
+.mainI .btn{
+  background: #976E59;
+  color: white;
+}
+
+.mainI .navI .btn-menu:hover {
+	border:1px solid #828282;
+	color: white;
+  background: red;
+}
+
+.mainI .navI .btn-outline-success{
+  background: #976E59;
+  color: white;
+  border-color: #976E59;
+}
+
+.mainI .navI .btn-outline-success:hover{
+  color: white;
+  border: #828282;
+  background: red;
+}
+
+.mainI .navI .banner {
+	display: inline-block;
+	width: 100%;
+	background: url(../img/banner.jpg);
+	background-size: cover;
+	text-align: center;
+	height: 65px;
+	line-height: 65px;
+	font-size: 26px;
+	font-weight: 300;
+	color: #fff;
+}
+
+.mainI .productos {
+	display: flex;
+	justify-content: space-between;
+}
+
+.mainI .productos .figureI {
+	max-width: 320px;
+	box-shadow:0px 3px 6px rgba(0,0,0,.16);
+}
+
+.mainI .productos img {
+	vertical-align: top;
+	width: 100%;
+	height: 275px;
+  cursor: pointer;
+}
+
+.mainI .productos .figureI .figcaptionI a {
+	background: #000;
+	display: inline-block;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	color: #fff;
+	height: 60px;
+	line-height: 60px;
+	padding: 0 20px;
+	font-weight: 300;
+}
+
+/* ------------------------- */
+/* Pushbars: Estilos Generales */
+/* ------------------------- */
+.pushbar{
+	background: #000;
+	color: #fff;
+	padding: 20px;
+}
+.pushbar .btn-cerrar {
+	text-align: right;
+}
+.pushbar .btn-cerrar button{
+	background: none;
+	color: #808080;
+	border: none;
+	cursor: pointer;
+	font-size: 20px;
+}
+/* ----- ----- Pushbar: Menu de Navegacion ----- ----- */
+.pushbar-menu a{
+	display: block;
+	color: #AAAAAA;
+	padding: 20px 0;
+	border-bottom: 1px solid rgba(112, 112, 112, .60);
+	font-weight: 300;
+	font-size: 18px;
+	transition: .3s ease color;
+}
+
+.pushbar-menu a:hover{
+	color: #fff;
+}
+
+
+/* ------------------------- */
+/* MEDIA QUERIES */
+/* ------------------------- */
+@media screen and (max-width: 600px) {
+	.headerI h1 {
+		font-size: 30px;
+		line-height: 30px;
+	}
+
+	.headerI h2 {
+		font-size: 16px;
+		line-height: 16px;
+	}
+
+	.mainI .navI .banner {
+		font-size: 14px;
+	}
+
+	.mainI .productos {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.mainI .productos .figureI {
+		margin-bottom: 40px;
+	}
+}
+
+/* redireccionar */
+
+.total {
+  height: 100vh;
+  position: relative;
+}
+
+.total img{
+  width: 20%;
+  left: 40%;
+  position: relative;
+  top: 5%;
+
+}
+
+
+.redireccionar{
+  padding: 1%;
+  background: white;
+  color: #976E59;
+  width: 50%;
+  text-align: center;
+  position: absolute;
+  top: 55%;
+  left: 25%;
+  transform: translateY(-50%);
+  border-radius: 48px;
+}
+
+
+.redireccionar p{
+  font-size: 2rem;
+}
